@@ -21,7 +21,7 @@ public class LoginTestWithEmptyPassField extends BaseTest{
 
         try {
 
-
+            //This is new comment
             homepage.verifyEmptyPassField("Please provide a password");
             System.out.println("User is NOT logged in");
         } catch (Exception e) {
